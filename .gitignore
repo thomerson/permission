@@ -3,3 +3,9 @@
 ################################################################################
 
 /thomerson.permission/.vs/thomerson.permission/v15
+/thomerson.permission/thomerson.permission.Core/bin/Debug/netcoreapp2.0
+/thomerson.permission/thomerson.permission.Core/obj
+/thomerson.permission/thomerson.permission.Model/bin/Debug/netcoreapp2.0
+/thomerson.permission/thomerson.permission.Model/obj
+/thomerson.permission/thomerson.permission.Web/bin/Debug/netcoreapp2.0
+/thomerson.permission/thomerson.permission.Web/obj
