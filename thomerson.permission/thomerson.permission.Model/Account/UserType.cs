@@ -7,6 +7,7 @@ namespace thomerson.permission.Model
     public enum UserType
     {
         All = 0,
-        Admin = 1
+        Admin = 1,
+        Normal = 2
     }
 }

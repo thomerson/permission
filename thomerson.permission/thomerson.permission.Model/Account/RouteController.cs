@@ -4,9 +4,11 @@ using System.Text;
 
 namespace thomerson.permission.Model.Account
 {
-    public class Role : BaseModel
+    public class RouteController : BaseModel
     {
         public string Name { get; set; }
+
+        public string Identifier { get; set; }
 
         public string Description { get; set; }
     }

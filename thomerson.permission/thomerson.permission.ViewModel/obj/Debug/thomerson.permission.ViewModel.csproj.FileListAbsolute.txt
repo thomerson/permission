@@ -1,0 +1,6 @@
+C:\Git\thomerson\permission\thomerson.permission\thomerson.permission.ViewModel\bin\Debug\thomerson.permission.ViewModel.dll
+C:\Git\thomerson\permission\thomerson.permission\thomerson.permission.ViewModel\bin\Debug\thomerson.permission.ViewModel.pdb
+C:\Git\thomerson\permission\thomerson.permission\thomerson.permission.ViewModel\obj\Debug\thomerson.permission.ViewModel.csprojResolveAssemblyReference.cache
+C:\Git\thomerson\permission\thomerson.permission\thomerson.permission.ViewModel\obj\Debug\thomerson.permission.ViewModel.csproj.CoreCompileInputs.cache
+C:\Git\thomerson\permission\thomerson.permission\thomerson.permission.ViewModel\obj\Debug\thomerson.permission.ViewModel.dll
+C:\Git\thomerson\permission\thomerson.permission\thomerson.permission.ViewModel\obj\Debug\thomerson.permission.ViewModel.pdb
