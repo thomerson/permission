@@ -4,10 +4,8 @@ using System.Text;
 
 namespace thomerson.permission.Model
 {
-    public enum UserType
+    public class BaseModelWithDisable : BaseModel
     {
-        All = 0,
-        Admin = 1,
-        Normal = 2
+        public bool Disabled { get; set; }
     }
 }

@@ -2,7 +2,8 @@
 
 namespace thomerson.permission.Core
 {
-    public class Class1
+    public class PermissionDBContext
     {
+
     }
 }

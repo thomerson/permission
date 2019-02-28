@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2005
+VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "thomerson.permission.Web", "thomerson.permission.Web\thomerson.permission.Web.csproj", "{F70F27E5-481D-4087-933D-F4DFD2054C3A}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "thomerson.permission.Core", "thomerson.permission.Core\thomerson.permission.Core.csproj", "{0756939A-5D01-4B5E-85C0-49ED5718A13A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "thomerson.permission.Model", "thomerson.permission.Model\thomerson.permission.Model.csproj", "{D0016664-BD11-4732-A8F4-D443C5E73C6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thomerson.permission.ViewModel", "thomerson.permission.ViewModel\thomerson.permission.ViewModel.csproj", "{669B61CD-1BF6-44F4-A866-B3C85AD3A9F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thomerson.Migrator", "Thomerson.Migrator\Thomerson.Migrator.csproj", "{D4EF998B-821E-45AC-9DB8-EA1D423F0B8B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "thomerson.permission.portal", "thomerson.permission.portal\thomerson.permission.portal.csproj", "{6B1C2F9E-FEC3-4EC6-A6BC-3612F5689786}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F70F27E5-481D-4087-933D-F4DFD2054C3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F70F27E5-481D-4087-933D-F4DFD2054C3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F70F27E5-481D-4087-933D-F4DFD2054C3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F70F27E5-481D-4087-933D-F4DFD2054C3A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0756939A-5D01-4B5E-85C0-49ED5718A13A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0756939A-5D01-4B5E-85C0-49ED5718A13A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0756939A-5D01-4B5E-85C0-49ED5718A13A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -29,10 +25,14 @@ Global
 		{D0016664-BD11-4732-A8F4-D443C5E73C6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0016664-BD11-4732-A8F4-D443C5E73C6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0016664-BD11-4732-A8F4-D443C5E73C6B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{669B61CD-1BF6-44F4-A866-B3C85AD3A9F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{669B61CD-1BF6-44F4-A866-B3C85AD3A9F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{669B61CD-1BF6-44F4-A866-B3C85AD3A9F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{669B61CD-1BF6-44F4-A866-B3C85AD3A9F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4EF998B-821E-45AC-9DB8-EA1D423F0B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4EF998B-821E-45AC-9DB8-EA1D423F0B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4EF998B-821E-45AC-9DB8-EA1D423F0B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4EF998B-821E-45AC-9DB8-EA1D423F0B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B1C2F9E-FEC3-4EC6-A6BC-3612F5689786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B1C2F9E-FEC3-4EC6-A6BC-3612F5689786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B1C2F9E-FEC3-4EC6-A6BC-3612F5689786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B1C2F9E-FEC3-4EC6-A6BC-3612F5689786}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

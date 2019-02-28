@@ -4,9 +4,8 @@ using System.Text;
 
 namespace thomerson.permission.Model
 {
-    public class BaseModel
+    public class BaseCommonModel : BaseModelWithAudit
     {
-        public Guid? ID { get; set; }
-       
+        public bool Disabled { get; set; }
     }
 }

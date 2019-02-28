@@ -4,10 +4,9 @@ using System.Text;
 
 namespace thomerson.permission.Model.Account
 {
-    public class Role : BaseCommonModel
+    public class RoleRight : BaseCommonModel
     {
-        public string Name { get; set; }
-
-        public string Remark { get; set; }
+        public Guid RoleId { get; set; }
+        public Guid RightId { get; set; }
     }
 }

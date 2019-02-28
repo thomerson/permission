@@ -4,12 +4,16 @@ using System.Text;
 
 namespace thomerson.permission.Model.Account
 {
-    public class RouteController : BaseModel
+    public class Right : BaseModel
     {
         public string Name { get; set; }
 
         public string Identifier { get; set; }
 
-        public string Description { get; set; }
+        public PermissionType Type { get; set; }
+
+        public Guid? ParentId { get; set; }
+
+        public string Remark { get; set; }
     }
 }
