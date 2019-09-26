@@ -11,6 +11,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thomerson.Migrator", "Thome
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "thomerson.permission.portal", "thomerson.permission.portal\thomerson.permission.portal.csproj", "{6B1C2F9E-FEC3-4EC6-A6BC-3612F5689786}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{68AD5A85-6F3B-48C3-BF63-9E91AB56860A}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "thomerson.permission.Mapping", "thomerson.permission.Mapping\thomerson.permission.Mapping.csproj", "{9649E884-5982-4750-A073-7B4937092832}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thomerson.Gatlin", "thomerson.Gatlin\thomerson.Gatlin.csproj", "{5EA4D673-3E92-47B0-B408-4527F739EDE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thomerson.UnitTest", "Thomerson.UnitTest\Thomerson.UnitTest.csproj", "{336D1010-6C87-44E2-9A4E-38F68443AC9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +44,18 @@ Global
 		{6B1C2F9E-FEC3-4EC6-A6BC-3612F5689786}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B1C2F9E-FEC3-4EC6-A6BC-3612F5689786}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B1C2F9E-FEC3-4EC6-A6BC-3612F5689786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9649E884-5982-4750-A073-7B4937092832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9649E884-5982-4750-A073-7B4937092832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9649E884-5982-4750-A073-7B4937092832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9649E884-5982-4750-A073-7B4937092832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EA4D673-3E92-47B0-B408-4527F739EDE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EA4D673-3E92-47B0-B408-4527F739EDE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EA4D673-3E92-47B0-B408-4527F739EDE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EA4D673-3E92-47B0-B408-4527F739EDE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{336D1010-6C87-44E2-9A4E-38F68443AC9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{336D1010-6C87-44E2-9A4E-38F68443AC9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{336D1010-6C87-44E2-9A4E-38F68443AC9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{336D1010-6C87-44E2-9A4E-38F68443AC9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

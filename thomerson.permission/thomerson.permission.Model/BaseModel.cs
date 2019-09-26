@@ -8,5 +8,6 @@ namespace thomerson.permission.Model
     {
         public Guid? ID { get; set; }
        
+        
     }
 }

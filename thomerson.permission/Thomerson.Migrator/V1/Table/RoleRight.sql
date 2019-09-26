@@ -1,5 +1,4 @@
-﻿USE Permission
-
+﻿
 IF NOT EXISTS (SELECT 1
                FROM   sysobjects
                WHERE  id = Object_id('RoleRight')

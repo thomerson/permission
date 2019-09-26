@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace thomerson.permission.Model.Account
+namespace thomerson.permission.Model
 {
     public class Right : BaseModel
     {

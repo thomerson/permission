@@ -4,8 +4,8 @@ using System.Text;
 
 namespace thomerson.permission.Model
 {
-    public class BaseModelWithDisable : BaseModel
+    interface IDelete
     {
-        public bool Disabled { get; set; }
+        bool IsDeleted { get; set; }
     }
 }
